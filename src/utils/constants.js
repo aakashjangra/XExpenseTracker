@@ -5,6 +5,7 @@ export const DEFAULT_WALLET_BALANCE = 5000;
 export const CATEGORIES = [
   'Food',
   'Transport',
+  'Travel',
   'Entertainment',
   'Shopping',
   'Bills',
@@ -16,6 +17,7 @@ export const CATEGORIES = [
 export const CATEGORY_COLORS = {
   Food: '#FF8C42',
   Transport: '#4C9AFF',
+  Travel: '#3ABFF0',
   Entertainment: '#B36AE2',
   Shopping: '#FF6B9C',
   Bills: '#4CD9A6',

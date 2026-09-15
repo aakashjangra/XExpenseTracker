@@ -142,6 +142,15 @@
 }
 
 /* Expense list */
+.expense-list__subtitle {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
 .expense-list__items {
   list-style: none;
   margin: 0;

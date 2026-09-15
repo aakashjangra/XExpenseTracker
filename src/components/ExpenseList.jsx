@@ -3,7 +3,8 @@ import ExpenseItem from './ExpenseItem';
 function ExpenseList({ expenses, onEdit, onDelete }) {
   return (
     <div className="card expense-list">
-      <h2 className="card__title">Expense History</h2>
+      <h2 className="card__title">Expenses</h2>
+      <h3 className="expense-list__subtitle">Transactions</h3>
       {expenses.length === 0 ? (
         <p className="empty-state">No expenses yet. Add your first expense to get started.</p>
       ) : (
